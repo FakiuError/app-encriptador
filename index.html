@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Codec</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="form">
+            <h2>Encriptador</h2>
+            <div class="inputBox">
+                <input type="text" class="input">
+                <span class="cont-text-up cont-text">Escribe el texto que deseas encriptar o desencriptar</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <p class="icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alert-circle" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#45f3ff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                    <path d="M12 8v4" />
+                    <path d="M12 16h.01" />
+                  </svg>
+                </p>
+                <p>Recuerde no incluir mayusculas ni caracteres especiales</p>
+            </div>
+            <div class="content">
+                <button class="buttom_1" onclick="encriptador()">
+                    Encriptar
+                </button>
+                <button class="buttom_2" onclick="desencriptador()">
+                    Desencriptar
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="form"> 
+            <textarea name="" id="" cols="30" rows="10" class="textArea">
+                Aún no has escrito nada
+            </textarea>
+            <button class="buttom_3">Copiar</button>
+        </div>
+    
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
